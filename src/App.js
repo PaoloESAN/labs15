@@ -16,7 +16,10 @@ const formReducer = (state, event) => {
     { id: 'Laptops ', displayName: 'Laptop' }, 
     { id: 'Smartphones ', displayName: 'Smartphone' },
     { id: 'Smart TVs', displayName: 'Smart TV' },
-    { id: 'Computadoras', displayName: 'Computadora' }
+    { id: 'Computadoras', displayName: 'Computadora' },
+    { id: 'Electrodomésticos', displayName: 'Electrodomésticos' },
+    { id: 'Tablets', displayName: 'Tablet' },
+    { id: 'Accesorios', displayName: 'Accesorios' }
   ];
 function App() {
 
@@ -124,7 +127,7 @@ return (
         <p>
           DevOps Testing  <code>CI-CD</code> ESAN Project
         </p> 
-          <p>Prueba de SOftware</p>
+          <p>Prueba de Software</p>
       </header>
       <h1>Registro de Productos</h1>
       {submitting &&
